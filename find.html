@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>검색</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스 없음</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>97%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">검색</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span><div class="setting-badge badge"></div></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>큐알코드</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>연락처로 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-fingerprint"></i>
+          <span>아이디로 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>초대하기</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">추천친구</h6>
+        <span>추천 친구 없음</span>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>오픈 채팅</h4>
+          <span
+            >오픈 채팅 홈으로 가기
+            <i class="fa-solid fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#IU</h5>
+            <h6 class="open-post__hashtags">#iu#유애나</h6>
+            <div class="open-post__members">
+              <img
+                src="https://cdnimg.melon.co.kr/cm2/artistcrop/images/002/61/143/261143_20210325180240_500.jpg?61e575e8653e5920470a38d1482d7312/melon/optimize/90"
+              />
+              <span class="open-post__member-count">100명</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">활동중</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://pbs.twimg.com/profile_images/1374979417915547648/vKspl9Et_400x400.jpg"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>1000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification elipisis_dot"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>화면이 너무 큼</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/72f3a32254.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
