@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   padding-top: 40px;
+  opacity: 0.95;
+  color: black;
 }
 
 .alt-header__column {

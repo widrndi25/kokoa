@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>채팅</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스 없음</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>97%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">아이유</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp" style="background-color: #ffdb3d">
+        2022년 10월 16일, 일요일
+      </div>
+
+      <div class="message-row message--left">
+        <img
+          src="http://www.womennews.co.kr/news/photo/first/201810/img_145196_1.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">아이유</span>
+          <div class="message__info">
+            <span class="message__bubble" style="background-color: #ffdb3d"
+              >이대로 좋아요</span
+            >
+            <span class="message__time">12:12</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own message--right">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Balance Balance</span>
+            <span class="message__time">12:12</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message--left" style="animation-delay: 2.3s">
+        <img
+          src="http://www.womennews.co.kr/news/photo/first/201810/img_145196_1.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">아이유</span>
+          <a href="https://www.youtube.com/watch?v=nM0xDI5R50E" target="_blank"
+            ><div class="message__info">
+              <span class="message__bubble" style="background-color: #ffdb3d"
+                >들으러가기(클릭!)</span
+              >
+              <span class="message__time">12:12</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="엄지손가락으로 장미꽃을 피워" />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button style="background-color: #ffdb3d">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면이 너무 큼</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/72f3a32254.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

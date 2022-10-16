@@ -40,7 +40,7 @@
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: var(--blueming);
   padding: 15px 15px;
   border-radius: 25px;
   font-size: 14px;
@@ -68,13 +68,13 @@
 }
 
 .message--left {
-  transform: translateX(-230px);
+  transform: translateX(-500px);
   animation: fadeInLeft 1s ease-in-out forwards;
   animation-delay: 0.8s;
 }
 
 .message--right {
-  transform: translateX(230px);
+  transform: translateX(300px);
   animation: fadeInLeft 1s ease-in-out forwards;
   animation-delay: 1.5s;
 }
@@ -104,7 +104,8 @@
 }
 
 .message__bubble {
-  background-color: white;
+  background-color: var(--blueming);
+  color: white;
   padding: 13px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -122,7 +123,8 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  color: white;
+  background-color: #34c759;
   border-top-left-radius: 15px;
   border-top-right-radius: 0px;
   margin-right: 0;
@@ -176,11 +178,12 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--blueming);
   border: none;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  color: white;
 }
 
 .reply__column button:focus,
